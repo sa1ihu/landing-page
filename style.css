@@ -95,24 +95,73 @@ button{
     max-width: 15%;
 }
 
-.sectiontwo{
-    ;
-}
 
 h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
 }
 
-.boxes{
-    font-size: 18px;
-    color: #1f2937 ;
-    border: 4px solid #3882f6;
+.section-two{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    margin-bottom: 30px;
 }
 
-#sqr {
-    border: 4px solid #3882f6;
-    border-radius: 10px;
+
+.row-boxes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box{
+    margin: 20px;
+    border: 3.5px solid #3882f6;
+    border-radius: 15px;
+    width:150px;
+    height: 150px;
+}
+
+.p-msg{
+    text-align: center;
+    font-weight:lighter;
+    font-size: 16px;
+    color: #1f2937;
+}
+
+.section-three{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+}
+.quotebox{
+    /* padding: 450px; */
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 100px; */
+    margin: 100px;
+    
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author{
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: right;
+    padding: 10px 0px 0px 20px;
 }
