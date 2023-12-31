@@ -144,16 +144,15 @@ h2{
     max-height: 400px;
 }
 .quotebox{
-    /* padding: 450px; */
     display: flex;
     flex-direction: column;
-    /* padding-top: 100px; */
     margin: 100px;
     
     
 }
 
 .quote{
+    display: flex;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
@@ -184,27 +183,32 @@ h2{
     padding: 10px 10px 10px 10px;
     width: 60%;
     height: 90px;
+    border-radius: 8px;
 }
 
-.action-right{
-    
-    width: 85%;
+.action-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    width: 80%;
     color: white;
     font-size: 16px;
 }
 
 
-.action-left{
-    width: 15%;
+.action-right{
+    max-width: 20%;
+    padding-right: 30px;
 }
 
 .action-button{
     color: white;
     background-color: #3882f6;
-    border: 3px solid white;
-    width: 80px;
-
-    border-radius: 5px;
+    border: 2.5px solid white;
+    width: 85px;
+    height: 33px;
+    border-radius: 8px;
+    font-weight: lighter;
 }
 
 
